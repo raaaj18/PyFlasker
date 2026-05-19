@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 WORKDIR /app
-COPY requirements.txt . 
+COPY requirements.txt .
 COPY app.py app.py
 RUN groupadd -r gfg &&  \
     useradd -r -g gfg pythongfg && \
