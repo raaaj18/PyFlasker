@@ -2,8 +2,4 @@ flask==2.0.1
 pytest
 Werkzeug==2.0.0
 flake8
-<<<<<<< HEAD
 pytest-cov
-=======
-pytest-cov
->>>>>>> ec736d134bb81ed2f1df26412f2b7a618be45b0a
