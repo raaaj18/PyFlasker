@@ -1,15 +1,17 @@
 from flask import Flask
 
+
 def create_app():
     app = Flask(__name__)
-    print("inside create app func")
+    print("inside create_app function")
 
     @app.route('/')
     def home():
-        print("inside hme func")
-        return "Hello, Flask is running smoothly!"
-    
+        print("inside home function")
+        return 'Hi hi GFG43 25th april 2026 12345'
+
     return app
+
 
 if __name__ == '__main__':
     app = create_app()
