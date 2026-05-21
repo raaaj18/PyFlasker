@@ -44,7 +44,7 @@ jobs: #bunch of jbs
     needs: python-tests #jb2 depends on jb1 
     steps:
       -
-        name: Login to Docker Hub
+        name: Login to Docker Hub accnt
         uses: docker/login-action@v4
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
@@ -60,4 +60,4 @@ jobs: #bunch of jbs
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: rajhahrsh18/gfgpython43cicd/app:latest
+          tags: rajharsh18/gfgpython43cicd/app:latest
