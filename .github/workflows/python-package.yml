@@ -60,4 +60,4 @@ jobs: #bunch of jbs
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: rajharsh18/gfgpython43cicd/app:latest
+          tags: rajharsh18/gfgpython43cicd:latest
