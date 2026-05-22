@@ -26,7 +26,7 @@ jobs: #bunch of jbs
         python3 --version
     - name: Install dependencies
       run: |
-        yum install python3-pip -y
+        sudo yum install python3-pip -y
         pip3 install --upgrade pip
         pip3 install flake8 pytest
         if [ -f requirements.txt ]; then pip3 install -r requirements.txt; fi
